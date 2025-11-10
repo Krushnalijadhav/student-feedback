@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: process.env.VITE_BACKEND_UR || "http://localhost:5000/api"
+  baseURL: process.env.VITE_FRONTEND_URL || "http://localhost:5000/api"
 });
 
 // attach token
