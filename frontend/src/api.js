@@ -1,10 +1,10 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL || "http://localhost:5000/api",
+  baseURL: "https://student-feedback-2-dox9.onrender.com/api", // ✅ Backend URL
 });
 
-// attach token
+// Attach token automatically for every request
 API.interceptors.request.use((config) => {
   const user = JSON.parse(localStorage.getItem("userInfo"));
   if (user && user.token) {
