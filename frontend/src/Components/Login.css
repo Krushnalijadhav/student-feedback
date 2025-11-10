@@ -1,0 +1,105 @@
+/* ===== PAGE SETUP ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== LOGIN CARD ===== */
+.card {
+  background-color: #ffffff;
+  width: 380px;
+  padding: 40px;              /* Equal padding on all sides */
+  border-radius: 12px;        /* Smooth, uniform corners */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* ===== HEADING ===== */
+.card h2 {
+  margin-bottom: 25px;
+  color: #111;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* ===== ERROR MESSAGE ===== */
+.error {
+  background-color: #ffe5e5;
+  color: #b00020;
+  border: 1px solid #b00020;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* ===== LABELS ===== */
+.card label {
+  display: block;
+  text-align: left;
+  margin: 12px 0 6px;
+  font-weight: 500;
+  color: #333;
+  font-size: 15px;
+}
+
+/* ===== INPUT FIELDS ===== */
+.card input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.card input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+}
+
+/* ===== FOOTER / REGISTER LINK ===== */
+.card p {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #555;
+}
+
+.card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
